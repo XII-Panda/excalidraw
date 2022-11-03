@@ -656,8 +656,8 @@ export const actionChangeFontFamily = register({
       icon: JSX.Element;
     }[] = [
       {
-        value: FONT_FAMILY.Virgil,
-        text: t("labels.handDrawn"),
+        value: FONT_FAMILY.chinese,
+        text: t("labels.handChinese"),
         icon: <FontFamilyHandDrawnIcon theme={appState.theme} />,
       },
       {
@@ -668,11 +668,6 @@ export const actionChangeFontFamily = register({
       {
         value: FONT_FAMILY.Cascadia,
         text: t("labels.code"),
-        icon: <FontFamilyCodeIcon theme={appState.theme} />,
-      },
-      {
-        value: FONT_FAMILY.chinese,
-        text: t("labels.handChinese"),
         icon: <FontFamilyCodeIcon theme={appState.theme} />,
       },
     ];
